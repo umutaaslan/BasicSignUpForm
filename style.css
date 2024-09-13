@@ -151,3 +151,7 @@ form > p > a:hover {
     color: orange;
     text-decoration: none;
 }
+
+form label:has(+ input:valid:focus){
+    color: green;
+}
